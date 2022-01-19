@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TraficLightView.swift
 //  ShalginSR_HW3.1
 //
 //  Created by Станислав on 19.01.2022.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TraficLightView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Color(.gray)
+            .ignoresSafeArea()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TraficLightView()
     }
 }

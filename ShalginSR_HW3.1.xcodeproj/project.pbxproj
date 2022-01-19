@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		856EEB1A2798954600C52764 /* ShalginSR_HW3_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EEB192798954600C52764 /* ShalginSR_HW3_1App.swift */; };
-		856EEB1C2798954600C52764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EEB1B2798954600C52764 /* ContentView.swift */; };
+		856EEB1C2798954600C52764 /* TraficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EEB1B2798954600C52764 /* TraficLightView.swift */; };
 		856EEB1E2798954900C52764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856EEB1D2798954900C52764 /* Assets.xcassets */; };
 		856EEB212798954900C52764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856EEB202798954900C52764 /* Preview Assets.xcassets */; };
+		856EEB2B279896A000C52764 /* SignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EEB2A279896A000C52764 /* SignalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		856EEB162798954600C52764 /* ShalginSR_HW3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShalginSR_HW3.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856EEB192798954600C52764 /* ShalginSR_HW3_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShalginSR_HW3_1App.swift; sourceTree = "<group>"; };
-		856EEB1B2798954600C52764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		856EEB1B2798954600C52764 /* TraficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficLightView.swift; sourceTree = "<group>"; };
 		856EEB1D2798954900C52764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856EEB202798954900C52764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		856EEB2A279896A000C52764 /* SignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,9 @@
 		856EEB182798954600C52764 /* ShalginSR_HW3.1 */ = {
 			isa = PBXGroup;
 			children = (
-				856EEB192798954600C52764 /* ShalginSR_HW3_1App.swift */,
-				856EEB1B2798954600C52764 /* ContentView.swift */,
-				856EEB1D2798954900C52764 /* Assets.xcassets */,
+				856EEB28279895B400C52764 /* Views */,
+				856EEB27279895AA00C52764 /* App */,
+				856EEB29279895BD00C52764 /* Resources */,
 				856EEB1F2798954900C52764 /* Preview Content */,
 			);
 			path = ShalginSR_HW3.1;
@@ -65,6 +67,31 @@
 				856EEB202798954900C52764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		856EEB27279895AA00C52764 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				856EEB192798954600C52764 /* ShalginSR_HW3_1App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		856EEB28279895B400C52764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				856EEB1B2798954600C52764 /* TraficLightView.swift */,
+				856EEB2A279896A000C52764 /* SignalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		856EEB29279895BD00C52764 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				856EEB1D2798954900C52764 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856EEB1C2798954600C52764 /* ContentView.swift in Sources */,
+				856EEB1C2798954600C52764 /* TraficLightView.swift in Sources */,
+				856EEB2B279896A000C52764 /* SignalView.swift in Sources */,
 				856EEB1A2798954600C52764 /* ShalginSR_HW3_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
