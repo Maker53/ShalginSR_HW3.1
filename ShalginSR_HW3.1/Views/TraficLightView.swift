@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct TraficLightView: View {
+    @State var buttonTitle = true
+    
     var body: some View {
-        Color(.gray)
-            .ignoresSafeArea()
+        ZStack {
+            Color(.gray)
+                .ignoresSafeArea()
+            
+            VStack {
+                SignalView(color: .red)
+                SignalView(color: .orange)
+                SignalView(color: .green)
+                
+                Spacer()
+                
+                Button("Start") {
+                    
+                }
+                .frame(width: 200)
+                .font(.title)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.blue)
+                .cornerRadius(15)
+            }
+            .padding()
+        }
     }
 }
 
